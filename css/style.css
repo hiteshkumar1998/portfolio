@@ -1,0 +1,272 @@
+.bgimg{
+	background-image: url('../images/background.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 660px;
+}
+.headerset{
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+.headerset h2{
+	font-size: 42px;
+	font-weight: bold;
+}
+.navbar-nav li{
+  padding-left:10px;
+  padding-right:10px;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    background-color: red;
+    border-radius: 10%;
+}
+#nav_up{
+	font-size: 40px;
+	position: fixed;
+	right: 10px;
+	bottom: 0px;
+	padding-right: 50px;
+}
+/* -------------- About Me  -------------*/
+
+#aboutme{
+	height: 550px;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+#aboutme h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+#aboutme p{
+	text-align: justify;
+	font-size: 18px;
+	color: #6c757d;
+}
+#aboutme ul{
+	padding-left: 0px;
+}
+#aboutme ul li {
+list-style-type: none;
+float: left;
+padding-right: 20px;
+background: none;
+padding-left: 0px;
+font-size: 25px;
+color: #727070;
+}
+#aboutme ul li i {
+font-size: 16px;
+width: 34px;
+height: 32px;
+border: 1px solid #dadada;
+border-radius: 2px;
+padding: 7px;
+color: #292d35;
+}
+.rowsetting{
+	margin: 80px 0px;
+}
+
+/* ----Education------ */
+
+#education{
+	height: 700px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+#education h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.card{
+	margin-top: 40px;
+}
+
+/* ----Skills------ */
+#skills{
+	height: 830px;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+#skills h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.skillsetting{
+	margin-top: 70px;
+}
+
+/*-----Work-----*/
+#work{
+	height: 830px;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+#work h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+#work h3{
+	padding-top: 40px;
+}
+.projectsetting{
+	margin-top: 70px;
+}
+
+/*---- Media Query ----*/
+@media(max-width: 1024px){
+#work{
+	height: 1550px;
+}
+#nav_up{
+	position: fixed;
+	right: -42px;
+	bottom: 770px;
+}
+}
+@media(min-width: 768px) and (max-width: 991px){
+#aboutme{
+	height: 620px;
+}
+#skills{
+	height: 840px;
+}
+#work{
+	height: 1150px;
+}
+#nav_up{
+	position: fixed;
+	right: -42px;
+	bottom: 430px;
+}
+}
+@media(min-width: 575px) and (max-width: 767px){
+
+}
+@media(min-width: 480px) and (max-width: 574px){
+#aboutme{
+	height: 820px;
+}
+#education{
+	height: 1550px;
+}
+#skills{
+	height: 1500px;
+}
+
+}
+@media(min-width: 415px) and (max-width: 479px){
+#aboutme{
+	height: 870px;
+}
+#education{
+	height: 1460px;
+}
+#skills{
+	height: 1500px;
+}
+#work{
+	height: 1220px;
+}
+}
+@media(min-width: 412px) and (max-width: 414px){
+#aboutme{
+	height: 870px;
+}
+#education{
+	height: 1460px;
+}
+#skills{
+	height: 1500px;
+}
+#work{
+	height: 1550px;
+}
+#nav_up{
+	position: fixed;
+	right: -42px;
+	bottom: 140px;
+}
+}
+@media(min-width: 401px) and (max-width: 411px){
+#aboutme{
+	height: 870px;
+}
+#education{
+	height: 1460px;
+}
+#skills{
+	height: 1500px;
+}
+#work{
+	height: 1540px;
+}
+#nav_up{
+	position: fixed;
+	right: -42px;
+	bottom: 130px;
+}
+}
+@media(min-width: 376px) and (max-width: 400px){
+#aboutme{
+	height: 870px;
+}
+#education{
+	height: 1460px;
+}
+#skills{
+	height: 1500px;
+}
+#work{
+	height: 1410px;
+}
+#nav_up{
+	position: fixed;
+	right: -42px;
+	bottom: 0px;
+}
+}
+@media(min-width: 321px) and (max-width: 375px){
+#aboutme{
+	height: 870px;
+}
+#education{
+	height: 1460px;
+}
+#skills{
+	height: 1500px;
+}
+#work{
+	height: 1430px;
+}
+#nav_up{
+	position: fixed;
+	right: -42px;
+	bottom: 70px;
+}
+}
+@media(max-width: 320px){
+#aboutme{
+	height: 870px;
+}
+#education{
+	height: 1460px;
+}
+#skills{
+	height: 1500px;
+}
+#work{
+	height: 1250px;
+}
+#nav_up{
+	position: fixed;
+	right: -42px;
+	bottom: 0px;
+}
+}

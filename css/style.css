@@ -22,6 +22,10 @@
     background-color: red;
     border-radius: 10%;
 }
+.navbar-dark .nav-item > .nav-link.active  {
+    background-color:green;
+    border-radius: 10%;
+}
 #nav_up{
 	font-size: 40px;
 	position: fixed;

@@ -19,7 +19,6 @@
 }
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    background-color: red;
     border-radius: 10%;
 }
 .navbar-dark .nav-item > .nav-link.active  {

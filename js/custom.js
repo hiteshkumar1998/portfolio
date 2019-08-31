@@ -52,4 +52,8 @@ $('.navbar-nav .nav-link').click(function(){
     $(this).addClass('active');
 })
 
+//sound effect
+var sound= new Audio();
+   sound.src="sound.wav";
+
 		

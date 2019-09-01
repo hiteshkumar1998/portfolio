@@ -246,12 +246,12 @@ color: #292d35;
 	height: 1500px;
 }
 #work{
-	height: 1430px;
+	height: 1360px;
 }
 #nav_up{
 	position: fixed;
 	right: -42px;
-	bottom: 70px;
+	bottom: 43px;
 }
 }
 @media(max-width: 320px){

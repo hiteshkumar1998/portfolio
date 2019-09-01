@@ -61,6 +61,7 @@
 #aboutme h1{
 	font-size: 50px;
 	font-weight: bold;
+	color: #FE6500;
 }
 #aboutme p{
 	text-align: justify;
@@ -102,6 +103,7 @@ color: #292d35;
 #education h1{
 	font-size: 50px;
 	font-weight: bold;
+	color: #FE6500;
 }
 .card{
 	margin-top: 40px;
@@ -117,6 +119,7 @@ color: #292d35;
 #skills h1{
 	font-size: 50px;
 	font-weight: bold;
+	color: #FE6500;
 }
 .skillsetting{
 	margin-top: 70px;
@@ -132,6 +135,7 @@ color: #292d35;
 #work h1{
 	font-size: 50px;
 	font-weight: bold;
+	color: #FE6500;
 }
 #work h3{
 	padding-top: 40px;

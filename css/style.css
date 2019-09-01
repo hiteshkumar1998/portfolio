@@ -8,10 +8,28 @@
 .headerset{
 	padding-top: 200px;
 	box-sizing: border-box;
+	width: 380px !important;
 }
 .headerset h2{
 	font-size: 42px;
+	letter-spacing: 2px;
 	font-weight: bold;
+	text-transform: uppercase;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	animation: typing 6s infinite steps(12);
+}
+@keyframes typing{
+	0%{
+		width: 0px;
+	}
+	50%{
+		width: 100%;
+	}
+	100%{
+		width: 0px;
+	}
 }
 .navbar-nav li{
   padding-left:10px;

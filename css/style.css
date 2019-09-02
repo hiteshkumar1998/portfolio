@@ -1,3 +1,6 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
 .bgimg{
 	background-image: url('../images/background.jpg');
 	background-size: 100% 100%;
@@ -35,11 +38,11 @@
   padding-left:10px;
   padding-right:10px;
 }
-.hide{
-	transform:translateY(-100%);
-}
 .navbar-dark .nav-item > .nav-link.active  {
     background-color:#fd2928;
+}
+.hide{
+	transform: translateY(-100%);
 }
 #nav_up{
 	font-size: 40px;
@@ -101,6 +104,7 @@ color: #292d35;
 #education h1{
 	font-size: 50px;
 	font-weight: bold;
+	padding-bottom: 40px;
 	color: #FE6500;
 }
 .card{

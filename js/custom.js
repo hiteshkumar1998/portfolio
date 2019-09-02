@@ -1,3 +1,4 @@
+var zero=0;
 $(document).ready(function(){
            // Add smooth scrolling to all links
            $("a").on('click', function(event) {
@@ -17,7 +18,7 @@ $(document).ready(function(){
                }, 800);
              } // End if
            });
-
+			//slide top button
            $(window).scroll(function(){
                      if($(this).scrollTop()>40)
                      {
@@ -28,6 +29,7 @@ $(document).ready(function(){
                         $('#nav_up').fadeOut();
                      }
                   });
+				  
       $(function() {
             $('#nav_up').click(
                function (e) {
@@ -46,6 +48,12 @@ $(document).ready(function(){
                }
             );
             });
+			
+			//navbar show hide in scroll
+			$(window).on('scroll',function(){
+				$('.navbar').toggleClass('hide',$(window).scrollTop()>zero);
+				zero=$(window).scrollTop();
+			});
          });
 $('.navbar-nav .nav-link').click(function(){
     $('.navbar-nav .nav-link').removeClass('active');

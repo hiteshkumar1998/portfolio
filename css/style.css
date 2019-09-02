@@ -35,13 +35,11 @@
   padding-left:10px;
   padding-right:10px;
 }
-.navbar-nav .nav-item.active .nav-link,
-.navbar-nav .nav-item:hover .nav-link {
-    border-radius: 10%;
+.hide{
+	transform:translateY(-100%);
 }
 .navbar-dark .nav-item > .nav-link.active  {
-    background-color:green;
-    border-radius: 10%;
+    background-color:#fd2928;
 }
 #nav_up{
 	font-size: 40px;

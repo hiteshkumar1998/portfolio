@@ -12,16 +12,25 @@ body{
 	padding-top: 200px;
 	box-sizing: border-box;
 	width: 360px !important;
+	height: 100%;
+	position: relative;
 }
 .headerset h2{
 	font-size: 40px;
 	letter-spacing: 2px;
 	font-weight: bold;
+	position: absolute;
+	top:360px;
 	text-transform: uppercase;
 	overflow: hidden;
 	white-space: nowrap;
 	width: 100%;
 	animation: typing 6s infinite steps(12);
+}
+.btn{
+    position: absolute;
+    top: 420px;
+    left: 93px;
 }
 @keyframes typing{
 	0%{
@@ -50,6 +59,42 @@ body{
 	right: 10px;
 	bottom: 0px;
 	padding-right: 50px;
+}
+.flip-main-box{
+	width: 100%;
+	height: 36%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flip{
+	width: 150px;
+	height: 96%;
+	
+	border-radius: 50%;
+	position: relative;
+	perspective: 1000px;
+}
+.flipbox{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transition: all 3s;
+	transform-style: preserve-3d;
+}
+.flip:hover .flipbox{
+	transform: rotateY(180deg);
+}
+.front, .back{
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.back{
+	transform: rotateY(180deg);
 }
 /* -------------- About Me  -------------*/
 

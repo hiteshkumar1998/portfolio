@@ -19,9 +19,10 @@ body{
 	font-size: 45px;
 	letter-spacing: 2px;
 	font-weight: bold;
+	text-transform: uppercase;
 	position: absolute;
 	top:360px;
-	text-transform: uppercase;
+	left: 0px;
 	overflow: hidden;
 	white-space: nowrap;
 	width: 100%;
@@ -96,6 +97,7 @@ body{
 .back{
 	transform: rotateY(180deg);
 }
+
 /* -------------- About Me  -------------*/
 
 #aboutme{
@@ -315,7 +317,7 @@ color: #292d35;
 	height: 1500px;
 }
 #work{
-	height: 1490px;
+	height: 1360px;
 }
 #nav_up{
 	position: fixed;

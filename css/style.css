@@ -11,7 +11,7 @@ body{
 .headerset{
 	padding-top: 200px;
 	box-sizing: border-box;
-	width: 360px !important;
+	width: 335px !important;
 	height: 100%;
 	position: relative;
 }
@@ -31,7 +31,7 @@ body{
 .btn{
     position: absolute;
     top: 420px;
-    left: 93px;
+    left: 83px;
 }
 @keyframes typing{
 	0%{
